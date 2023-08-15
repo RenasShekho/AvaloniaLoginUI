@@ -1,0 +1,23 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:uc="clr-namespace:LoginUI.MyUserControls"
+			 mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="LoginUI.WinUserControl.LoginUserControl">
+	<Panel>
+			<StackPanel Margin="10" >
+			<uc:MyTextBlock Content="User Name"/>
+			<uc:MyTextBox  HorizontalAlignment="Left"/>
+			<uc:MyTextBlock Content="Password"/>
+			<uc:MyTextBox  HorizontalAlignment="Left"/>
+			<StackPanel Orientation="Horizontal" Margin="20">
+				<uc:MyButton  Name="LoginBtn"> </uc:MyButton>
+				<uc:MyButton Name="RegisterBtn"> </uc:MyButton>
+			</StackPanel>
+
+		</StackPanel>
+
+	
+	</Panel>
+</UserControl>
